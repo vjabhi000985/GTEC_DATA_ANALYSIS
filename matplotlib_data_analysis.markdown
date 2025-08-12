@@ -80,6 +80,8 @@ Matplotlib’s `pyplot` module provides a simple interface for creating plots.
 import matplotlib.pyplot as plt
 import numpy as np
 
+%matplotlib inline
+
 # Sample data
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
