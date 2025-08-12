@@ -30,6 +30,9 @@ For the examples below, assume the following sample files exist:
 - Example:
   ```python
   import pandas as pd
+  import warnings
+
+  warnings.filterwarnings('ignore')
 
   # Sample CSV content: Name,Age,City
   # Alice,25,New York
